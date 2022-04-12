@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main (void)
+{
+    char data[51]; //크기 지정 , 남는 공간에는 모두 null이 들어감 
+    
+    scanf("%s",&data);
+    
+    printf("%s",data);
+}
